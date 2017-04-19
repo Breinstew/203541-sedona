@@ -27,33 +27,34 @@
           <img src="http://placehold.it/150x100" alt="Логотип">
         </div>
         <div class="filter">
+          <form action="#" method="post">
             <section class="infrastructure">
               <h2>Инфраструктура</h2>
               <label>
-                  <input type="checkbox" name="infrastructure" id="pool">
+                  <input type="checkbox" name="infrastructure" value="pool" id="pool">
                   Бассейн
               </label>
               <label>
-                  <input type="checkbox" name="infrastructure" id="parking">
+                  <input type="checkbox" name="infrastructure" value="parking" id="parking">
                   Парковка
               </label>
               <label>
-                  <input type="checkbox" name="infrastructure" id="wifi">
+                  <input type="checkbox" name="infrastructure" value="wifi" id="wifi">
                   Wi-Fi
               </label>
             </section>
-            <section class="apartment">
+            <section class="apartment-type">
               <h2>Тип жилья:</h2>
               <label>
-                <input type="checkbox" name="apartment" id="hotel">
+                <input type="checkbox" name="apartment-type" value="hotel" id="hotel">
                 Гостиница
               </label>
               <label>
-                <input type="checkbox" name="apartment" id="motel">
+                <input type="checkbox" name="apartment-type" value="motel" id="motel">
                 Мотель
               </label>
               <label>
-              <input type="checkbox" name="apartment" id="apartment">
+              <input type="checkbox" name="apartment-type" value="apartment" id="apartment">
                 Апартаменты
               </label>
             </section>
@@ -67,13 +68,12 @@
                   <a href="#" class="range-from">до 3000</a>
                 </div>
               </div>
-              <div class="slider">
+              <div class="range">
                 <input type="range" name="cost" min="0" max="3000" value="2500">
               </div>
-              <div class="btn-show">
-                <a href="#">Показать</a>
-              </div>
             </section>
+            <button type="button" name="btn-show" class="btn-show">Показать</button>
+          </form>
         </div>
       </div>
     </header>
@@ -83,7 +83,7 @@
         <h2>Найдено: <span id="amount">3</span></h2>
         <h3>Сортировка:</h3>
         <ul>
-          <li><a href="#">по цене</a></li>
+          <li><a href="#" class="active-sorting">по цене</a></li>
           <li><a href="#">по типу</a></li>
           <li><a href="#">по рейтингу</a></li>
         </ul>
@@ -92,7 +92,7 @@
             <img src="http://placehold.it/150x100" alt="по возрастанию">
           </a>
         </div>
-        <div class="pic-down">
+        <div class="pic-down active-sorting">
           <a href="#">
             <img src="http://placehold.it/150x100" alt="по убыванию">
           </a>
@@ -182,7 +182,6 @@
         </section>
       </div>
     </footer>
-
 
   </body>
 </html>
