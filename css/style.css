@@ -1,7 +1,12 @@
 body {
+  min-width: 1245px;
+  margin: 0;
+  padding: 0;
+
   font-size: 14px;
   line-height: normal;
   color: black;
+  background-color: rgb(242,242,242);
   font-weight: normal;
   font-family: sans-serif;
   text-transform: uppercase;
@@ -29,4 +34,63 @@ main h3 {
   font-weight: bold;
   font-family: sans-serif;
   text-transform: uppercase;
+}
+/*разметка шапки страницы index.html*/
+.container {
+  width: 1200px;
+  padding: 0;
+  margin: 0 auto;
+}
+.main-header .container {
+    background-color: rgb(225, 238, 243);
+    background-image: url("../img/background_main_img_1200.jpg");
+}
+
+.main-navigation {
+  min-height: 56px;
+  padding: 0 6%;
+  background-color: rgb(255,255,255);
+  margin-bottom: 76px;
+}
+.main-navigation a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+.main-navigation ul {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.main-navigation li {
+  width: 240px;
+  padding-top: 16px;
+}
+.main-navigation li:nth-child(3) {
+  margin-left: auto;
+}
+.main-navigation li:nth-child(3),
+.main-navigation li:nth-child(4) {
+  text-align: right;
+}
+.main-header .container {
+  position: relative;
+}
+.header-logo {
+  position: absolute;
+  left: 44.2%;
+  top: 0;
+}
+.header-promo {
+  width: 458px;
+  height: 352px;
+  margin: 0 auto;
+  margin-bottom: 23px;
+}
+.header-decorative-bottom {
+  width: 1200px;
+  height: 57px;
+  background-image: url("../img/background_bottom_mask.png");
 }
