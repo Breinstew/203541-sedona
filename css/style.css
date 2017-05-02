@@ -252,3 +252,8 @@ main h2{
 .main-footer .footer-copyright {
   width: 400px;
 }
+
+/*разметка подвала страницы sedona-hotels.html*/
+.main-footer .footer-bottom {
+  position: static;
+}
