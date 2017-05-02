@@ -212,21 +212,18 @@ main h2{
   text-align: center;
 }
 .btn-search {
+
   width: 568px;
   height: 86px;
   margin-left: 316px;
   margin-right: 316px;
   background-color: #766357;
 }
-.reservation figure {
-  margin: 0;
-  padding: 0;
-  width: 1200px;
-  height: 593px;
-}
+
 .reservation .search-form {
   position: absolute;
-  bottom: 198px;
+  z-index: 10;
+  bottom: -395px;
   left: 0;
   right: 0;
   margin: 0 auto;
@@ -235,3 +232,23 @@ main h2{
   background-color: yellow;
 }
 /*разметка подвала страницы index.html*/
+.main-footer {
+  position: relative;
+}
+.main-footer .footer-bottom {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  background-color: white;
+}
+.main-footer figure {
+  margin: 0;
+  padding: 0;
+  width: 1200px;
+  height: 593px;
+}
+.main-footer .footer-contacts,
+.main-footer .footer-social,
+.main-footer .footer-copyright {
+  width: 400px;
+}
