@@ -2,13 +2,12 @@ body {
   min-width: 1245px;
   margin: 0;
   padding: 0;
-
   font-size: 14px;
   line-height: normal;
   color: black;
   background-color: rgb(242,242,242);
   font-weight: normal;
-  font-family: sans-serif;
+  font-family: 'PT Sans', sans-serif;
   text-transform: uppercase;
 }
 main h1 {
@@ -16,7 +15,7 @@ main h1 {
   line-height: 24px;
   color: black;
   font-weight: bold;
-  font-family: sans-serif;
+  font-family: 'PT Sans', sans-serif;
   text-transform: uppercase;
 }
 main h2 {
@@ -24,22 +23,32 @@ main h2 {
   line-height: 26px;
   color: black;
   font-weight: bold;
-  font-family: sans-serif;
+  font-family: 'PT Sans', sans-serif;
   text-transform: uppercase;
 }
 main h3 {
+  margin-top: 0;
+  margin-bottom: 25px;
+  padding-left: 40px;
+  padding-right: 40px;
   font-size: 21px;
   line-height: 21px;
-  color: black;
+  color: white;
   font-weight: bold;
-  font-family: sans-serif;
+  font-family: 'PT Sans', sans-serif;
   text-transform: uppercase;
+}
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
 }
 /*разметка шапки страницы index.html*/
 .container {
   width: 1200px;
   padding: 0;
   margin: 0 auto;
+  background-color: white;
 }
 .main-header .container {
     background-color: rgb(225, 238, 243);
@@ -93,4 +102,136 @@ main h3 {
   width: 1200px;
   height: 57px;
   background-image: url("../img/background_bottom_mask.png");
+  }
+/*разметка тела страницы index.html*/
+
+main h2{
+  margin: 0;
+  padding:  0 300px;
+  padding-top: 60px;
+  background: white;
+  text-align: center;
 }
+
+.container > p {
+  margin-top: 30px;
+  padding: 0;
+  text-align: center;
+  margin-bottom: 55px;
+}
+.reason-1 {
+  color: white;
+}
+.description {
+  width: 400px;
+  min-height: 256px;
+  float: left;
+  text-align: center;
+  background-color: #81b3d2;
+}
+.reason-1 h3 {
+  margin-top: 46px;
+  margin-bottom: 25px;
+}
+.reason-1 b {
+  display: block;
+  margin-bottom: 25px;
+}
+.reason-1 p {
+  padding: 0 59px;
+}
+.reason-1 img {
+  float: right;
+  width: 800px;
+  min-height: 256px;
+}
+.features {
+  display: flex;
+}
+.features-item {
+  width: 400px;
+  min-height: 330px;
+}
+.features-item img {
+  margin-top: 60px;
+  margin-bottom: 20px;
+  padding: 0 162px;
+}
+.features-item b {
+  display: block;
+  text-align: center;
+  font-size: 21px;
+  font-weight: bold;
+}
+.features-item p {
+  padding: 0 55px;
+  text-align: center;
+}
+.reason-2 {
+  display: flex;
+  color: white;
+}
+.reason-2 h3 {
+  margin-top: 46px;
+  margin-bottom: 25px;
+}
+.reason-2 b {
+  display: block;
+  margin-bottom: 25px;
+}
+.reason-2 p {
+  padding: 0 59px;
+}
+.reason-2 img {
+  float: right;
+  width: 800px;
+  min-height: 256px;
+}
+.reason-3-4-5 {
+  display: flex;
+}
+.reason-3-4-5 h3 {
+    color: black;
+}
+.reason-3-4-5 .description{
+  background-color: #eeeeee;
+}
+.reservation {
+  position: relative;
+}
+.reservation h1 {
+  margin: 0 400px;
+  margin-top: 53px;
+  text-align: center;
+
+}
+.reservation p {
+  margin: 0 312px;
+  margin-top: 28px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.btn-search {
+  width: 568px;
+  height: 86px;
+  margin-left: 316px;
+  margin-right: 316px;
+  background-color: #766357;
+}
+.reservation figure {
+  margin: 0;
+  padding: 0;
+  width: 1200px;
+  height: 593px;
+}
+.reservation .search-form {
+  position: absolute;
+  bottom: 198px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 568px;
+  height: 395px;
+  background-color: yellow;
+}
+/*разметка подвала страницы index.html*/
