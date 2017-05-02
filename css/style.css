@@ -283,7 +283,65 @@ main h2{
   width: 133px;
 }
 
+/*разметка основного содержания страницы sedona-hotels.html*/
+.sorting {
+  display: flex;
+  padding: 0 73px;
+  padding-top: 31px;
+  margin-bottom: 31px
+}
+.sorting h2 {
+  margin: 0;
+  margin-right: 48px;
+  padding: 0;
+}
+.sorting p {
+  margin: 0;
+  margin-right: 40px;
+  padding: 0;
+}
+.sorting ul{
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  width: 240px;
+  list-style: none;
+}
+.sorting .pic-up {
+  margin-left: auto;
+}
+.sorting .pic-down {
+  margin-left: 10px;
+}
 
+.results {
+  margin: 0;
+  padding: 0;
+}
+.results img {
+  margin-right: 30px;
+}
+.results h2 {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+.results ul {
+  margin: 0;
+  padding: 0 73px;
+  list-style: none;
+}
+.results li {
+  display: flex;
+}
+.results .results-main {
+  width: 563px;
+}
+.results .result-rank {
+  margin-left: auto;
+  width: 240px;
+}
 
 /*разметка подвала страницы sedona-hotels.html*/
 .main-footer .footer-bottom {
