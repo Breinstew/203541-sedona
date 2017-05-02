@@ -7,7 +7,7 @@
   </head>
   <body>
     <header class="main-header">
-      <div class="container">
+      <div class="container hotels">
         <nav class="main-navigation">
           <ul>
             <li>
@@ -30,16 +30,16 @@
           </a>
         </div>
         <div class="filter">
-          <form action="#" method="post">
+          <form class="clearfix" action="#" method="post">
             <section class="infrastructure">
               <p>Инфраструктура</p>
               <label>
                   <input type="checkbox" name="infrastructure" value="pool" id="pool">
-                  Бассейн
+                  Бассейн<br>
               </label>
               <label>
                   <input type="checkbox" name="infrastructure" value="parking" id="parking">
-                  Парковка
+                  Парковка<br>
               </label>
               <label>
                   <input type="checkbox" name="infrastructure" value="wifi" id="wifi">
@@ -50,11 +50,11 @@
               <p>Тип жилья:</p>
               <label>
                 <input type="checkbox" name="apartment-type" value="hotel" id="hotel">
-                Гостиница
+                Гостиница<br>
               </label>
               <label>
                 <input type="checkbox" name="apartment-type" value="motel" id="motel">
-                Мотель
+                Мотель<br>
               </label>
               <label>
               <input type="checkbox" name="apartment-type" value="apartment" id="apartment">
@@ -74,8 +74,8 @@
               <div class="range">
                 <input type="range" name="cost" min="0" max="3000" value="2500">
               </div>
+              <button type="button" name="btn-show" class="btn-show">Показать</button>
             </section>
-            <button type="button" name="btn-show" class="btn-show">Показать</button>
           </form>
         </div>
       </div>

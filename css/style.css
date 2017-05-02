@@ -252,6 +252,38 @@ main h2{
 .main-footer .footer-copyright {
   width: 400px;
 }
+/*разметка шапки страницы sedona-hotels.html*/
+.main-header .hotels {
+    background-color: rgb(225, 238, 243);
+    background-image: url("../img/background_hotels_img_1200.jpg");
+}
+.hotels .main-navigation {
+  margin: 0;
+}
+.main-header .filter {
+  margin-top: 30px;
+  padding: 0 73px;
+  padding-bottom: 33px;
+}
+.filter .infrastructure {
+  float: left;
+  width:254px;
+}
+.filter .apartment-type {
+  float: left;
+  width: 274px;
+}
+.filter .cost-per-day {
+  float: right;
+  width: 328px;
+}
+.filter .btn-show {
+  float: right;
+  margin-right: 96px;
+  width: 133px;
+}
+
+
 
 /*разметка подвала страницы sedona-hotels.html*/
 .main-footer .footer-bottom {
