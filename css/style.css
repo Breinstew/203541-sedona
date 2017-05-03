@@ -7,7 +7,7 @@ body {
   color: black;
   background-color: rgb(242,242,242);
   font-weight: normal;
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'PT Sans', Arial, sans-serif;
   text-transform: uppercase;
 }
 main h1 {
@@ -15,7 +15,7 @@ main h1 {
   line-height: 24px;
   color: black;
   font-weight: bold;
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'PT Sans', Arial, sans-serif;
   text-transform: uppercase;
 }
 main h2 {
@@ -23,7 +23,7 @@ main h2 {
   line-height: 26px;
   color: black;
   font-weight: bold;
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'PT Sans', Arial, sans-serif;
   text-transform: uppercase;
 }
 main h3 {
@@ -135,7 +135,7 @@ main h2{
 }
 .reason-1 b {
   display: block;
-  margin-bottom: 25px;
+  margin-bottom: 23px;
 }
 .reason-1 p {
   padding: 0 59px;
@@ -154,11 +154,12 @@ main h2{
 }
 .features-item img {
   margin-top: 60px;
-  margin-bottom: 20px;
+  margin-bottom: 18px;
   padding: 0 162px;
 }
 .features-item b {
   display: block;
+  margin-bottom: 20px;
   text-align: center;
   font-size: 21px;
   font-weight: bold;
@@ -177,10 +178,10 @@ main h2{
 }
 .reason-2 b {
   display: block;
-  margin-bottom: 25px;
+  margin-bottom: 22px;
 }
 .reason-2 p {
-  padding: 0 59px;
+  padding: 0 48px;
 }
 .reason-2 img {
   float: right;
@@ -192,6 +193,16 @@ main h2{
 }
 .reason-3-4-5 h3 {
     color: black;
+    margin-top: 46px;
+    margin-bottom: 24px;
+    padding: 0 138px;
+}
+.reason-3-4-5 b {
+  display: block;
+  margin-bottom: 26px;
+}
+.reason-3-4-5 p {
+  padding: 0 68px;
 }
 .reason-3-4-5 .description{
   background-color: #eeeeee;
@@ -201,23 +212,35 @@ main h2{
 }
 .reservation h1 {
   margin: 0 400px;
-  margin-top: 53px;
+  margin-top: 55px;
   text-align: center;
 
 }
 .reservation p {
   margin: 0 312px;
-  margin-top: 28px;
-  margin-bottom: 50px;
+  margin-top: 32px;
+  margin-bottom: 48px;
   text-align: center;
+  line-height: 24px;
 }
 .btn-search {
-
   width: 568px;
   height: 86px;
   margin-left: 316px;
   margin-right: 316px;
   background-color: #766357;
+}
+.btn-search a {
+  display: block;
+  width: 568px;
+  text-align: center;
+  padding-top: 28px;
+  padding-bottom: 30px;
+  text-decoration: none;
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: bold;
+  color: white;
 }
 
 .reservation .search-form {
@@ -239,7 +262,8 @@ main h2{
   display: flex;
   position: absolute;
   bottom: 0;
-  background-color: white;
+  z-index: 10;
+  background-color: rgba(255, 255, 255, 0.9);
 }
 .main-footer figure {
   margin: 0;
@@ -251,6 +275,7 @@ main h2{
 .main-footer .footer-social,
 .main-footer .footer-copyright {
   width: 400px;
+
 }
 /*разметка шапки страницы sedona-hotels.html*/
 .main-header .hotels {
@@ -344,6 +369,6 @@ main h2{
 }
 
 /*разметка подвала страницы sedona-hotels.html*/
-.main-footer .footer-bottom {
+.main-footer .hotels {
   position: static;
 }
