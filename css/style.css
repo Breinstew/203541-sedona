@@ -67,6 +67,17 @@ main h3 {
   color: black;
   font-weight: bold;
 }
+.main-navigation .active {
+  color: #766357;
+}
+.main-navigation a:hover {
+  color: #81b3d2;
+}
+.main-navigation a:active {
+  color: black;
+  opacity: 0.3;
+}
+
 .main-navigation ul {
   display: flex;
   justify-content: space-between;
@@ -564,6 +575,13 @@ main h2{
   height: 22px;
   background-image: url("../img/checkbox_off.png");
 }
+
+.infrastructure input[type="checkbox"]:disabled + .checkbox-indicator-pool,
+.infrastructure input[type="checkbox"]:disabled + .checkbox-indicator-parking,
+.infrastructure input[type="checkbox"]:disabled + .checkbox-indicator-wifi {
+  background-image: url("../img/checkbox_off_readonly.png");
+}
+
 .infrastructure input[type="checkbox"]:checked + .checkbox-indicator-pool::before,
 .infrastructure input[type="checkbox"]:checked + .checkbox-indicator-parking::before,
 .infrastructure input[type="checkbox"]:checked + .checkbox-indicator-wifi::before  {
@@ -573,6 +591,13 @@ main h2{
   height: 22px;
   background-image:  url("../img/checkbox_on.png");
 }
+
+.infrastructure input[type="checkbox"]:checked:disabled + .checkbox-indicator-pool::before,
+.infrastructure input[type="checkbox"]:checked:disabled + .checkbox-indicator-parking::before,
+.infrastructure input[type="checkbox"]:checked:disabled + .checkbox-indicator-wifi::before {
+  background-image: url("../img/checkbox_on_readonly.png");
+}
+
 .infrastructure input[type="checkbox"] + .checkbox-indicator-pool {
   top: 129px;
   left: 73px;
@@ -617,15 +642,29 @@ main h2{
   height: 22px;
   background-image: url("../img/checkbox_off.png");
 }
-.apartment-type input[type="checkbox"]:checked + .checkbox-indicator-hotel::before,
-.apartment-type input[type="checkbox"]:checked + .checkbox-indicator-motel::before,
-.apartment-type input[type="checkbox"]:checked + .checkbox-indicator-apartment::before  {
+
+.apartment-type input[type="checkbox"]:disabled + .checkbox-indicator-hotel,
+.apartment-type input[type="checkbox"]:disabled + .checkbox-indicator-motel,
+.apartment-type input[type="checkbox"]:disabled + .checkbox-indicator-apartment {
+  background-image: url("../img/checkbox_off_readonly.png");
+}
+
+.apartment-type input[type="checkbox"]:checked + .checkbox-indicator-hotel::after,
+.apartment-type input[type="checkbox"]:checked + .checkbox-indicator-motel::after,
+.apartment-type input[type="checkbox"]:checked + .checkbox-indicator-apartment::after  {
   content: "";
   position: absolute;
   width: 26px;
   height: 22px;
   background-image:  url("../img/checkbox_on.png");
 }
+
+.apartment-type input[type="checkbox"]:checked:disabled + .checkbox-indicator-hotel::before,
+.apartment-type input[type="checkbox"]:checked:disabled + .checkbox-indicator-motel::before,
+.apartment-type input[type="checkbox"]:checked:disabled + .checkbox-indicator-apartment::before {
+  background-image: url("../img/checkbox_on_readonly.png");
+}
+
 .apartment-type input[type="checkbox"] + .checkbox-indicator-hotel {
   top: 129px;
   left: 328px;
@@ -696,6 +735,7 @@ main h2{
 
   color: inherit;
   font: inherit;
+  line-height: inherit;
 
   background: none;
   border: none;
@@ -806,8 +846,17 @@ main h2{
   color: black;
   text-decoration: none;
 }
-.sorting .active-sorting,
-.sorting .active-sorting li {
+
+.sorting a:hover {
+  opacity: 1;
+  color: #81b3d2;
+}
+.sorting a:active {
+  opacity: 1;
+  color: black;
+  border: none;
+}
+.sorting .active-sorting {
   opacity: 1;
   color: #81b3d2;
   border-bottom-style: none;
@@ -816,15 +865,57 @@ main h2{
   padding-bottom: -1px;
   border-bottom: 1px dotted #81b3d2;
 }
+.sorting li:active {
+  border-bottom-style: none;
+}
+
 .sorting .pic-up a,
 .sorting .pic-down a {
   opacity: 1;
 }
+
 .sorting .pic-up {
   margin-left: auto;
+
+  width: 11px;
+  height: 10px;
+  background-image: url("../img/up.png");
 }
+
 .sorting .pic-down {
   margin-left: 10px;
+
+  width: 11px;
+  height: 10px;
+  background-image: url("../img/down.png");
+}
+
+.sorting .pic-down.active-sorting {
+  background-image: url("../img/down_active.png");
+}
+
+.sorting .pic-up:hover  {
+  width: 11px;
+  height: 10px;
+  background-image: url("../img/up_hover.png");
+}
+
+.sorting .pic-down:hover  {
+  width: 11px;
+  height: 10px;
+  background-image: url("../img/down_hover.png");
+}
+
+.sorting .pic-up:active  {
+  width: 11px;
+  height: 10px;
+  background-image: url("../img/up_active.png");
+}
+
+.sorting .pic-down:active  {
+  width: 11px;
+  height: 10px;
+  background-image: url("../img/down_active.png");
 }
 
 .results {
@@ -838,6 +929,13 @@ main h2{
   margin: 0;
   padding: 0;
   text-align: left;
+}
+.results h2:hover {
+  color: #81b3d2;
+}
+.results h2:active {
+  opacity: 0.3;
+  color: black;
 }
 .results ul {
   margin: 0;
@@ -895,6 +993,10 @@ main h2{
   font-weight: bold;
   color: white;
 }
+.results-main a:active {
+  color: rgba(255, 255, 255, 0.3)
+}
+
 .results-main .btn-detailed{
   width: 110px;
   padding-top: 4px;
@@ -902,12 +1004,18 @@ main h2{
   text-align: center;
   background-color: #81b3d2;
 }
+.results-main .btn-detailed:hover {
+  background-color: #669ec0;
+}
 .results-main .btn-reserve{
   width: 142px;
   padding-top: 4px;
   padding-bottom: 4px;
   text-align: center;
   background-color: #766357;
+}
+.results-main .btn-reserve:hover {
+  background-color: #503e33;
 }
 .results .result-rank {
   display: flex;
