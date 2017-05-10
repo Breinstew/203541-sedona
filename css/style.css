@@ -603,15 +603,15 @@ main h2{
 
 .infrastructure input[type="checkbox"] + .checkbox-indicator-pool {
   top: 129px;
-  left: 73px;
+  left: 72px;
 }
 .infrastructure input[type="checkbox"] + .checkbox-indicator-parking {
   top: 174px;
-  left: 73px;
+  left: 72px;
 }
 .infrastructure input[type="checkbox"] + .checkbox-indicator-wifi {
-  top: 222px;
-  left: 73px;
+  top: 219px;
+  left: 72px;
 }
 
 .filter .apartment-type {
@@ -629,7 +629,7 @@ main h2{
 .apartment-type label {
   display: block;
   margin-bottom: 25px;
-  margin-left: 39px;
+  margin-left: 41px;
   font-size: 14px;
   line-height: 21px;
   color: white;
@@ -670,23 +670,24 @@ main h2{
 
 .apartment-type input[type="checkbox"] + .checkbox-indicator-hotel {
   top: 129px;
-  left: 328px;
+  left: 326px;
 }
 .apartment-type input[type="checkbox"] + .checkbox-indicator-motel {
   top: 174px;
-  left: 328px;
+  left: 326px;
 }
 .apartment-type input[type="checkbox"] + .checkbox-indicator-apartment {
-  top: 222px;
-  left: 328px;
+  top: 219px;
+  left: 326px;
 }
 
 .filter .cost-per-day {
   float: right;
-  width: 330px;
+  width: 315px;
 }
 .cost-per-day p {
   margin-top: 0;
+  margin-left: 0px;
   margin-bottom: 15px;
 
   color: white;
@@ -697,7 +698,8 @@ main h2{
 .price-controls {
   position: relative;
 
-  height: 36px;
+  height: 30px;
+  margin-top: -5px;
   margin-bottom: 20px;
 
   font-size: 0;
@@ -721,7 +723,7 @@ main h2{
   display: inline-block;
 
   font-size: 14px;
-  line-height: 38px;
+  line-height: 30px;
   vertical-align: top;
   color: white;
 
@@ -731,6 +733,9 @@ main h2{
 .price-controls .max-price {
   width: 90px;
   padding-left: 65px;
+}
+.price-controls .max-price {
+  padding-left: 55px;
 }
 .price-controls input {
   width: 50px;
@@ -743,6 +748,7 @@ main h2{
   background: none;
   border: none;
 }
+
 .range-controls {
   position: relative;
 
@@ -786,9 +792,9 @@ main h2{
 
 .btn-transparent {
   display: block;
-  margin: 0 auto;
-  margin-bottom: 30px;
-  padding: 6px 35px;
+  margin-left: 85px;
+  margin-bottom: 35px;
+  padding: 6px 30px;
 
   font-size: 14px;
   line-height: 20px;
@@ -817,13 +823,14 @@ main h2{
   display: flex;
   align-items: center;
   padding: 0 73px;
-  padding-top: 31px;
-  padding-bottom: 31px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   border-bottom: 1px solid #e5e5e5;
 }
 .sorting h2 {
   margin: 0;
   margin-right: 48px;
+  margin-left: -2px;
   padding: 0;
 }
 .sorting p {
@@ -947,7 +954,7 @@ main h2{
 }
 .results li {
   display: flex;
-  padding: 30px 73px;
+  padding: 29px 72px;
   border-bottom: 1px solid #e5e5e5;
 }
 .results > img {
@@ -964,7 +971,7 @@ main h2{
 .results-main h2 {
   /*margin-right: auto;*/
   float: left;
-  margin-bottom: 10px;
+  margin-bottom: 7px;
   margin-top: -3px;
   width: 560px;
 }
@@ -972,14 +979,14 @@ main h2{
   float: left;
   width: 116px;
   margin: 0;
-  margin-bottom: 12px;
+  margin-bottom: 16px;
   color: #333333;
 }
 .results-main b {
   display: block;
   float: right;
   width: 447px;
-  margin-bottom: 12px;
+  margin-bottom: 16px;
   font-weight: normal;
   color: #333333;
 }
@@ -1031,12 +1038,13 @@ main h2{
   margin: 0;
 }
 .result-rank p {
-  margin-top: 40px;
+  margin-top: 42px;
   margin-bottom: 0;
-  padding: 5px 13px;
+  padding: 5px 12px;
   color: #666666;
   background-color: #f2f2f2;
 }
+
 
 /*разметка подвала страницы sedona-hotels.html*/
 .main-footer .hotels {
