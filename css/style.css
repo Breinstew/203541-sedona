@@ -1050,3 +1050,6 @@ main h2{
 .main-footer .hotels {
   position: static;
 }
+.modal-content {
+  display: none;
+}
