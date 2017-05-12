@@ -295,6 +295,7 @@ main h2{
   text-transform: uppercase;
   background-color: #f2f2f2;
   border-style: none;
+  cursor: pointer;
 }
 .date-item input[type="text"]:focus {
   outline: 2px solid #e5e5e5;
@@ -328,6 +329,7 @@ main h2{
   height: 22px;
   right: 65px;
   top: 60px;
+  cursor: pointer;
 }
 .date-item .date-out-img {
   position: absolute;
@@ -335,6 +337,7 @@ main h2{
   height: 22px;
   right: 65px;
   top: 130px;
+  cursor: pointer;
 }
 
 .search-form .person-item {
@@ -369,6 +372,7 @@ main h2{
   background-color: #f2f2f2;
   text-align: center;
   border-style: none;
+
 }
 .person-item .btn-minus,
 .person-item .btn-plus
@@ -428,6 +432,7 @@ main h2{
   background-color: #81b3d2;
   text-transform: uppercase;
   border-style: none;
+  cursor: pointer;
 }
 .search-form .btn-form:hover {
   background-color: #669ec0;
@@ -566,6 +571,7 @@ main h2{
   font-size: 14px;
   line-height: 21px;
   color: white;
+  cursor: pointer;
 }
 .infrastructure input[type="checkbox"] {
   display: none;
@@ -633,6 +639,7 @@ main h2{
   font-size: 14px;
   line-height: 21px;
   color: white;
+  cursor: pointer;
 }
 .apartment-type input[type="checkbox"] {
   display: none;
@@ -890,6 +897,7 @@ main h2{
   width: 11px;
   height: 10px;
   background-image: url("../img/up.png");
+  cursor: pointer;
 }
 
 .sorting .pic-down {
@@ -898,6 +906,7 @@ main h2{
   width: 11px;
   height: 10px;
   background-image: url("../img/down.png");
+  cursor: pointer;
 }
 
 .sorting .pic-down.active-sorting {
