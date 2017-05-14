@@ -120,7 +120,7 @@ body {
   }
 
 /*разметка тела страницы index.html*/
-main h2{
+.main h2{
   margin: 0;
   padding:  0 300px;
   padding-top: 60px;
@@ -306,7 +306,11 @@ main h2{
   line-height: 26px;
   color:black;
 }
-.date-item input[type="text"]:focus {
+.date-item input[type="text"]:focus:hover {
+  outline: 2px solid #e5e5e5;
+  background-color: white;
+}
+.date-item input[type="text"]:focus{
   outline: 2px solid #e5e5e5;
   background-color: white;
 }
