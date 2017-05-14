@@ -88,11 +88,13 @@ main h3 {
 }
 .main-navigation li {
   width: 240px;
+  padding-top: 14px;
   font-weight: bold;
   line-height: 26px;
 }
 .main-navigation li:nth-child(3) {
   margin-left: auto;
+  margin-right: 6px;
 }
 .main-navigation li:nth-child(3),
 .main-navigation li:nth-child(4) {
@@ -143,15 +145,18 @@ main h2{
   background-color: #81b3d2;
 }
 .reason-1 h3 {
-  margin-top: 46px;
+  margin-top: 47px;
   margin-bottom: 25px;
 }
 .reason-1 b {
   display: block;
-  margin-bottom: 23px;
+  margin-bottom: 24px;
 }
 .reason-1 p {
-  padding: 0 59px;
+  padding: 0;
+  padding-left: 59px;
+  padding-right: 59px;
+  line-height: 21px;
 }
 .reason-1 img {
   float: right;
