@@ -172,7 +172,7 @@ main h2{
 }
 .features-item img {
   margin-top: 60px;
-  margin-bottom: 18px;
+  margin-bottom: 19px;
   padding: 0 162px;
 }
 .features-item b {
@@ -185,21 +185,23 @@ main h2{
 .features-item p {
   padding: 0 55px;
   text-align: center;
+  line-height: 21px;
 }
 .reason-2 {
   display: flex;
   color: white;
 }
 .reason-2 h3 {
-  margin-top: 46px;
+  margin-top: 47px;
   margin-bottom: 25px;
 }
 .reason-2 b {
   display: block;
-  margin-bottom: 22px;
+  margin-bottom: 23px;
 }
 .reason-2 p {
   padding: 0 48px;
+  line-height: 21px;
 }
 .reason-2 img {
   float: right;
