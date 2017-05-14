@@ -345,18 +345,20 @@ main h2{
   margin-right: 0;
 }
 .search-form .men {
-  margin-right: 33px;
+  margin-right: 41px;
+  margin-top: 5px;
 }
 .search-form .children {
-  margin-right: 22px;
+  margin-right: 28px;
+  margin-top: 5px;
 }
 .person-item input[type="text"] {
   width: 42px;
   min-height: 26px;
   padding-top: 7px;
   padding-bottom: 4px;
-  padding-left: 37px;
-  padding-right: 37px;
+  padding-left: 10px;
+  padding-right: 10px;
   font-size: 14px;
   font-weight: bold;
   line-height: 26px;
@@ -365,40 +367,36 @@ main h2{
   text-align: center;
   border-style: none;
 }
+.person-item label {
+  display: flex;
+}
+.person-item-input {
+  display: flex;
+  background-color: #f2f2f2;
+}
 .person-item .btn-minus,
 .person-item .btn-plus
  {
-  text-decoration: none;
   cursor: pointer;
-  position: absolute;
 }
-.person-men .btn-minus {
+.person-item .btn-minus {
   width: 12px;
   height: 3px;
   background-image: url("../img/minus.png");
-  left: 178px;
-  bottom: 184px;
+  background-color: #f2f2f2;
+  margin-top: 18px;
+  margin-left: 14px;
 }
-.person-men .btn-plus {
+.person-item .btn-plus {
   width: 11px;
   height: 11px;
   background-image: url("../img/plus.png");
-  left: 254px;
-  bottom: 181px;
-}
-.person-children .btn-minus {
-  width: 12px;
-  height: 3px;
-  background-image: url("../img/minus.png");
-  right: 145px;
-  bottom: 184px;
+  background-color: #f2f2f2;
+  margin-top: 14px;
+  margin-right: 14px;
 }
 .person-children .btn-plus {
-  width: 11px;
-  height: 11px;
-  background-image: url("../img/plus.png");
-  right: 68px;
-  bottom: 181px;
+  margin-left: 2px;
 }
 .person-item .btn-plus:hover {
   background-image: url("../img/plus_hover.png");
@@ -415,9 +413,11 @@ main h2{
 .search-form .btn-form {
   display: block;
   margin: 0 auto;
-  padding: 18px 192px;
+  padding: 0 192px;
+  padding-top: 16px;
+  padding-bottom: 16px;
   font-size: 21px;
-  line-height: 25px;
+  line-height: 26px;
   font-weight: bold;
   color: #ffffff;
   background-color: #81b3d2;
