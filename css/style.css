@@ -161,7 +161,7 @@ main h2{
 .reason-1 img {
   float: right;
   width: 800px;
-  min-height: 256px;
+  height: 256px;
 }
 .features {
   display: flex;
@@ -206,7 +206,7 @@ main h2{
 .reason-2 img {
   float: right;
   width: 800px;
-  min-height: 256px;
+  height: 256px;
 }
 .reason-3-4-5 {
   display: flex;
