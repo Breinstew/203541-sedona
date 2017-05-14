@@ -854,8 +854,8 @@ main h2{
 .sorting li:active {
   border-bottom-style: none;
 }
-.sorting .pic-up a,
-.sorting .pic-down a {
+.sorting a.pic-up,
+.sorting a.pic-down {
   opacity: 1;
 }
 .sorting .pic-up {
