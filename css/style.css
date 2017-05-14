@@ -369,6 +369,7 @@ main h2{
 .person-item .btn-plus
  {
   text-decoration: none;
+  cursor: pointer;
   position: absolute;
 }
 .person-men .btn-minus {
