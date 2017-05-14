@@ -1,9 +1,1 @@
-var form = document.querySelector(".search-form");
-var btn = document.querySelector(".btn-search");
-
-form.classList.toggle("modal-content");
-btn.addEventListener("click",function(evt){
-  evt.preventDefault();
-  console.log("Клик по кнопке");
-  form.classList.toggle("modal-content");
-});
+var form=document.querySelector(".search-form"),btn=document.querySelector(".btn-search");form.classList.toggle("modal-content");btn.addEventListener("click",function(a){a.preventDefault();console.log("\u041a\u043b\u0438\u043a \u043f\u043e \u043a\u043d\u043e\u043f\u043a\u0435");form.classList.toggle("modal-content")});
