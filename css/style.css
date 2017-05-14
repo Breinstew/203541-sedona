@@ -44,6 +44,7 @@ main h3 {
   display: table;
   clear: both;
 }
+
 /*разметка шапки страницы index.html*/
 .container {
   width: 1200px;
@@ -53,12 +54,10 @@ main h3 {
   box-shadow: 10px 0px 15px -10px rgba(0, 0, 0, 0.2),
               -10px 0px 15px -10px rgba(0, 0, 0, 0.2);
 }
-
 .main-header .container {
     background-color: rgb(225, 238, 243);
     background-image: url("../img/background_main_img_1200.jpg");
 }
-
 .main-navigation {
   min-height: 56px;
   padding: 0 6%;
@@ -80,7 +79,6 @@ main h3 {
   color: black;
   opacity: 0.3;
 }
-
 .main-navigation ul {
   display: flex;
   justify-content: space-between;
@@ -118,8 +116,8 @@ main h3 {
   height: 57px;
   background-image: url("../img/background_bottom_mask.png");
   }
-/*разметка тела страницы index.html*/
 
+/*разметка тела страницы index.html*/
 main h2{
   margin: 0;
   padding:  0 300px;
@@ -127,7 +125,6 @@ main h2{
   background: white;
   text-align: center;
 }
-
 .container > p {
   margin-top: 30px;
   padding: 0;
@@ -229,7 +226,6 @@ main h2{
   margin: 0 400px;
   margin-top: 55px;
   text-align: center;
-
 }
 .reservation p {
   margin: 0 312px;
@@ -282,13 +278,12 @@ main h2{
 .date-item input[type="text"] {
   box-sizing: border-box;
   min-height: 38px;
-  /*width: 292px;*/width: 346px;
+  width: 346px;
   margin: 0;
   padding-top: 6px;
   padding-bottom: 5px;
   padding-left: 12px;
   padding-right: 38px;
-
   font-size: 14px;
   font-weight: bold;
   line-height: 26px;
@@ -304,7 +299,6 @@ main h2{
 .date-item input[type="text"]:hover {
   background-color: #ebebeb;
 }
-
 .date-item b.date-in {
   margin-right: 18px;
 }
@@ -339,7 +333,6 @@ main h2{
   top: 130px;
   cursor: pointer;
 }
-
 .search-form .person-item {
   float: left;
   margin-right: 53px;
@@ -357,7 +350,6 @@ main h2{
 .search-form .children {
   margin-right: 22px;
 }
-
 .person-item input[type="text"] {
   width: 42px;
   min-height: 26px;
@@ -372,7 +364,6 @@ main h2{
   background-color: #f2f2f2;
   text-align: center;
   border-style: none;
-
 }
 .person-item .btn-minus,
 .person-item .btn-plus
@@ -385,28 +376,28 @@ main h2{
   height: 3px;
   background-image: url("../img/minus.png");
   left: 178px;
-  bottom: /*177px;*/184px;
+  bottom: 184px;
 }
 .person-men .btn-plus {
   width: 11px;
   height: 11px;
   background-image: url("../img/plus.png");
   left: 254px;
-  bottom: /*173px;*/181px;
+  bottom: 181px;
 }
 .person-children .btn-minus {
   width: 12px;
   height: 3px;
   background-image: url("../img/minus.png");
   right: 145px;
-  bottom: /*177px;*/184px;
+  bottom: 184px;
 }
 .person-children .btn-plus {
   width: 11px;
   height: 11px;
   background-image: url("../img/plus.png");
   right: 68px;
-  bottom: /*173px;*/181px;
+  bottom: 181px;
 }
 .person-item .btn-plus:hover {
   background-image: url("../img/plus_hover.png");
@@ -424,7 +415,6 @@ main h2{
   display: block;
   margin: 0 auto;
   padding: 18px 192px;
-
   font-size: 21px;
   line-height: 25px;
   font-weight: bold;
@@ -441,7 +431,6 @@ main h2{
   background-color: #669ec0;
   color: rgba(255, 255, 255, 0.3);
 }
-
 
 /*разметка подвала страницы index.html*/
 .main-footer {
@@ -584,13 +573,11 @@ main h2{
   height: 22px;
   background-image: url("../img/checkbox_off.png");
 }
-
 .infrastructure input[type="checkbox"]:disabled + .checkbox-indicator-pool,
 .infrastructure input[type="checkbox"]:disabled + .checkbox-indicator-parking,
 .infrastructure input[type="checkbox"]:disabled + .checkbox-indicator-wifi {
   background-image: url("../img/checkbox_off_readonly.png");
 }
-
 .infrastructure input[type="checkbox"]:checked + .checkbox-indicator-pool::before,
 .infrastructure input[type="checkbox"]:checked + .checkbox-indicator-parking::before,
 .infrastructure input[type="checkbox"]:checked + .checkbox-indicator-wifi::before  {
@@ -600,13 +587,11 @@ main h2{
   height: 22px;
   background-image:  url("../img/checkbox_on.png");
 }
-
 .infrastructure input[type="checkbox"]:checked:disabled + .checkbox-indicator-pool::before,
 .infrastructure input[type="checkbox"]:checked:disabled + .checkbox-indicator-parking::before,
 .infrastructure input[type="checkbox"]:checked:disabled + .checkbox-indicator-wifi::before {
   background-image: url("../img/checkbox_on_readonly.png");
 }
-
 .infrastructure input[type="checkbox"] + .checkbox-indicator-pool {
   top: 129px;
   left: 72px;
@@ -619,7 +604,6 @@ main h2{
   top: 219px;
   left: 72px;
 }
-
 .filter .apartment-type {
   float: left;
   width: 274px;
@@ -652,13 +636,11 @@ main h2{
   height: 22px;
   background-image: url("../img/checkbox_off.png");
 }
-
 .apartment-type input[type="checkbox"]:disabled + .checkbox-indicator-hotel,
 .apartment-type input[type="checkbox"]:disabled + .checkbox-indicator-motel,
 .apartment-type input[type="checkbox"]:disabled + .checkbox-indicator-apartment {
   background-image: url("../img/checkbox_off_readonly.png");
 }
-
 .apartment-type input[type="checkbox"]:checked + .checkbox-indicator-hotel::after,
 .apartment-type input[type="checkbox"]:checked + .checkbox-indicator-motel::after,
 .apartment-type input[type="checkbox"]:checked + .checkbox-indicator-apartment::after  {
@@ -668,13 +650,11 @@ main h2{
   height: 22px;
   background-image:  url("../img/checkbox_on.png");
 }
-
 .apartment-type input[type="checkbox"]:checked:disabled + .checkbox-indicator-hotel::before,
 .apartment-type input[type="checkbox"]:checked:disabled + .checkbox-indicator-motel::before,
 .apartment-type input[type="checkbox"]:checked:disabled + .checkbox-indicator-apartment::before {
   background-image: url("../img/checkbox_on_readonly.png");
 }
-
 .apartment-type input[type="checkbox"] + .checkbox-indicator-hotel {
   top: 129px;
   left: 326px;
@@ -687,7 +667,6 @@ main h2{
   top: 219px;
   left: 326px;
 }
-
 .filter .cost-per-day {
   float: right;
   width: 315px;
@@ -696,7 +675,6 @@ main h2{
   margin-top: 0;
   margin-left: 0px;
   margin-bottom: 15px;
-
   color: white;
   font-size: 16px;
   line-height: 21px;
@@ -704,13 +682,10 @@ main h2{
 }
 .price-controls {
   position: relative;
-
   height: 30px;
   margin-top: -5px;
   margin-bottom: 20px;
-
   font-size: 0;
-
   border: 2px solid #ffffff;
   border-radius: 2px;
 }
@@ -719,21 +694,17 @@ main h2{
   position: absolute;
   top: 50%;
   left: 50%;
-
   width: 2px;
   height: 22px;
-
   background: #ffffff;
   transform: translate(-50%, -50%);
 }
 .price-controls label {
   display: inline-block;
-
   font-size: 14px;
   line-height: 30px;
   vertical-align: top;
   color: white;
-
   cursor: pointer;
 }
 .price-controls .min-price,
@@ -747,38 +718,30 @@ main h2{
 .price-controls input {
   width: 50px;
   margin: 0;
-
   color: inherit;
   font: inherit;
   line-height: inherit;
-
   background: none;
   border: none;
 }
-
 .range-controls {
   position: relative;
-
   margin-bottom: 32px;
 }
 .range-controls .scale {
   height: 2px;
-
   background: rgba(255, 255, 255, 0.3);
 }
 .range-controls .bar {
   width: 80%;
   height: 2px;
-
   background: #ffffff;
 }
 .range-toggle {
   position: absolute;
   top: -9px;
-
   width: 4px;
   height: 4px;
-
   background: #ababab;
   border: 8px solid #ffffff;
   border-radius: 50%;
@@ -788,26 +751,21 @@ main h2{
 .range-toggle:hover {
   background: #1c4f80;
 }
-
 .range-toggle-min {
   left: 0;
 }
-
 .range-toggle-max {
   left: 80%;
 }
-
 .btn-transparent {
   display: block;
   margin-left: 85px;
   margin-bottom: 35px;
   padding: 6px 30px;
-
   font-size: 14px;
   line-height: 20px;
   color: #ffffff;
   text-transform: uppercase;
-
   background: transparent;
   border: 2px solid #ffffff;
   border-radius: 2px;
@@ -815,14 +773,7 @@ main h2{
 }
 .btn-transparent:hover {
   color: #000000;
-
   background: #ffffff;
-}
-
-/*.filter .btn-show {
-  float: right;
-  margin-right: 96px;
-  width: 133px;
 }
 
 /*разметка основного содержания страницы sedona-hotels.html*/
@@ -854,7 +805,6 @@ main h2{
   padding: 0;
   width: 240px;
   list-style: none;
-
 }
 .sorting a {
   font-size: 12px;
@@ -863,7 +813,6 @@ main h2{
   color: black;
   text-decoration: none;
 }
-
 .sorting a:hover {
   opacity: 1;
   color: #81b3d2;
@@ -885,58 +834,47 @@ main h2{
 .sorting li:active {
   border-bottom-style: none;
 }
-
 .sorting .pic-up a,
 .sorting .pic-down a {
   opacity: 1;
 }
-
 .sorting .pic-up {
   margin-left: auto;
-
   width: 11px;
   height: 10px;
   background-image: url("../img/up.png");
   cursor: pointer;
 }
-
 .sorting .pic-down {
   margin-left: 10px;
-
   width: 11px;
   height: 10px;
   background-image: url("../img/down.png");
   cursor: pointer;
 }
-
 .sorting .pic-down.active-sorting {
   background-image: url("../img/down_active.png");
 }
-
 .sorting .pic-up:hover  {
   width: 11px;
   height: 10px;
   background-image: url("../img/up_hover.png");
 }
-
 .sorting .pic-down:hover  {
   width: 11px;
   height: 10px;
   background-image: url("../img/down_hover.png");
 }
-
 .sorting .pic-up:active  {
   width: 11px;
   height: 10px;
   background-image: url("../img/up_active.png");
 }
-
 .sorting .pic-down:active  {
   width: 11px;
   height: 10px;
   background-image: url("../img/down_active.png");
 }
-
 .results {
   margin: 0;
   padding: 0;
@@ -971,14 +909,9 @@ main h2{
   height: 90px;
 }
 .results .results-main {
-  /*display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;*/
-
   width: 563px;
 }
 .results-main h2 {
-  /*margin-right: auto;*/
   float: left;
   margin-bottom: 7px;
   margin-top: -3px;
@@ -1021,7 +954,6 @@ main h2{
 .results-main a:active {
   color: rgba(255, 255, 255, 0.3)
 }
-
 .results-main .btn-detailed{
   width: 110px;
   padding-top: 4px;
@@ -1059,7 +991,6 @@ main h2{
   color: #666666;
   background-color: #f2f2f2;
 }
-
 
 /*разметка подвала страницы sedona-hotels.html*/
 .main-footer .hotels {
