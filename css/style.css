@@ -10,8 +10,7 @@ body {
   font-family: 'PT Sans', Arial, sans-serif;
   text-transform: uppercase;
 }
-input, textarea {outline: none;}/*убрать обводку в chrome*/
-main h1 {
+.main h1 {
   font-size: 30px;
   line-height: 24px;
   color: black;
@@ -19,7 +18,7 @@ main h1 {
   font-family: 'PT Sans', Arial, sans-serif;
   text-transform: uppercase;
 }
-main h2 {
+.main h2 {
   font-size: 21px;
   line-height: 26px;
   color: black;
@@ -27,7 +26,7 @@ main h2 {
   font-family: 'PT Sans', Arial, sans-serif;
   text-transform: uppercase;
 }
-main h3 {
+.main h3 {
   margin-top: 0;
   margin-bottom: 25px;
   padding-left: 40px;
@@ -384,6 +383,7 @@ main h2{
   background-color: #f2f2f2;
   text-align: center;
   border-style: none;
+  outline: none;
 }
 .person-item label {
   display: flex;
