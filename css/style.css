@@ -212,17 +212,18 @@ main h2{
   display: flex;
 }
 .reason-3-4-5 h3 {
-    color: black;
-    margin-top: 46px;
-    margin-bottom: 24px;
-    padding: 0 138px;
+  color: black;
+  margin-top: 48px;
+  margin-bottom: 24px;
+  padding: 0 139px;
 }
 .reason-3-4-5 b {
   display: block;
-  margin-bottom: 26px;
+  margin-bottom: 24px;
 }
 .reason-3-4-5 p {
-  padding: 0 68px;
+  padding: 0 65px;
+  line-height: 21px;
 }
 .reason-3-4-5 .description{
   background-color: #eeeeee;
@@ -274,7 +275,7 @@ main h2{
   background-color: white;
 }
 .search-form form {
-  margin: 0 54px;
+  margin-left: 56px;
   margin-top: 54px;
 }
 .search-form .date-item {
@@ -288,8 +289,8 @@ main h2{
   min-height: 38px;
   width: 346px;
   margin: 0;
-  padding-top: 6px;
-  padding-bottom: 5px;
+  padding-top: 5px;
+  padding-bottom: 6px;
   padding-left: 12px;
   padding-right: 38px;
   font-size: 14px;
@@ -300,6 +301,12 @@ main h2{
   border-style: none;
   cursor: pointer;
 }
+.date-item input[type="text"]::-webkit-input-placeholder {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 26px;
+  color:black;
+}
 .date-item input[type="text"]:focus {
   outline: 2px solid #e5e5e5;
   background-color: white;
@@ -309,9 +316,12 @@ main h2{
 }
 .date-item b.date-in {
   margin-right: 18px;
+  font-weight: bold;
+  margin-top: 3px;
 }
 .date-item b.date-out {
   margin-right: 14px;
+  font-weight: bold;
 }
 .date-item .date-in-img,
 .date-item .date-out-img {
@@ -330,7 +340,7 @@ main h2{
   width: 21px;
   height: 22px;
   right: 65px;
-  top: 60px;
+  top: 62px;
   cursor: pointer;
 }
 .date-item .date-out-img {
@@ -343,7 +353,7 @@ main h2{
 }
 .search-form .person-item {
   float: left;
-  margin-right: 53px;
+  margin-right: 55px;
   padding-bottom: 54px;
   font-size: 14px;
   font-weight: bold;
@@ -363,8 +373,8 @@ main h2{
 .person-item input[type="text"] {
   width: 42px;
   min-height: 26px;
-  padding-top: 7px;
-  padding-bottom: 4px;
+  padding-top: 5px;
+  padding-bottom: 6px;
   padding-left: 10px;
   padding-right: 10px;
   font-size: 14px;
@@ -377,6 +387,7 @@ main h2{
 }
 .person-item label {
   display: flex;
+  margin-left: -2px;
 }
 .person-item-input {
   display: flex;
@@ -420,7 +431,8 @@ main h2{
 }
 .search-form .btn-form {
   display: block;
-  margin: 0 auto;
+  margin: 0;
+  margin-left: -1px;
   padding: 0 192px;
   padding-top: 16px;
   padding-bottom: 16px;
@@ -535,7 +547,6 @@ main h2{
 .footer-copyright .btn-html-academy:active {
   background-image: url("../img/html_academy_active.png");
 }
-
 
 /*разметка шапки страницы sedona-hotels.html*/
 .main-header .hotels {
