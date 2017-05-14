@@ -54,7 +54,7 @@ body {
               -10px 0px 15px -10px rgba(0, 0, 0, 0.2);
 }
 .main-header .container {
-    background-color: #46494d;
+    background-color: #647888;
     background-image: url("../img/background_main_img_1200.jpg");
 }
 .main-navigation {
@@ -557,7 +557,7 @@ body {
 
 /*разметка шапки страницы sedona-hotels.html*/
 .main-header .hotels {
-    background-color: #354349;
+    background-color: #425464;
     background-image: url("../img/background_hotels_img_1200.jpg");
 }
 .hotels .main-navigation {
