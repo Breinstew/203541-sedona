@@ -444,7 +444,7 @@ main h2{
   z-index: 10;
   background-color: rgba(255, 255, 255, 0.9);
 }
-.main-footer figure {
+.main-footer .map {
   margin: 0;
   padding: 0;
   width: 1200px;
