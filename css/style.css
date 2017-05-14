@@ -88,7 +88,8 @@ main h3 {
 }
 .main-navigation li {
   width: 240px;
-  padding-top: 16px;
+  font-weight: bold;
+  line-height: 26px;
 }
 .main-navigation li:nth-child(3) {
   margin-left: auto;
