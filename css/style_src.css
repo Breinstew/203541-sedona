@@ -107,6 +107,7 @@ body {
 }
 .header-logo {
   position: absolute;
+  z-index: 10;
   left: 44.3%;
   top: 0;
 }
@@ -556,21 +557,21 @@ body {
 }
 
 /*разметка шапки страницы sedona-hotels.html*/
-.main-header .hotels {
-    background-color: #425464;
-    background-image: url("../img/background_hotels_img_1200.jpg");
-}
-.hotels .main-navigation {
-  margin: 0;
-}
-.main-header .filter {
-  margin-top: 28px;
+.main .filter {
+  position: relative;
   padding: 0 73px;
   padding-bottom: 0px;
+  background-color: #425464;
+  background-image: url("../img/background_hotels_img_1200.jpg");
+  background-position: 0 -55px;
+}
+.main-navigation.hotels {
+  margin-bottom: 0px;
 }
 .filter .infrastructure {
   float: left;
   width:254px;
+  padding-top: 28px;
 }
 .infrastructure p {
   margin-top: 0;
@@ -592,6 +593,7 @@ body {
 .filter .apartment-type {
   float: left;
   width: 274px;
+  padding-top: 28px;
 }
 .apartment-type p {
   margin-top: 0;
@@ -635,29 +637,30 @@ body {
   background-image: url("../img/checkbox_on_readonly.png");
 }
 .infrastructure input[id="pool"] + .checkbox-indicator::before {
-  top: 129px;
+  top: 72px;
 }
 .infrastructure input[id="parking"] + .checkbox-indicator::before {
-  top: 174px;
+  top: 117px;
 }
 .infrastructure input[id="wifi"] + .checkbox-indicator::before {
-  top: 219px;
+  top: 163px;
 }
 .apartment-type input[id="hotel"] + .checkbox-indicator::before {
-  top: 129px;
+  top: 72px;
   left: 326px;
 }
 .apartment-type input[id="motel"] + .checkbox-indicator::before {
-  top: 174px;
+  top: 117px;
   left: 326px;
 }
 .apartment-type input[id="apartment"] + .checkbox-indicator::before {
-  top: 219px;
+  top: 163px;
   left: 326px;
 }
 .filter .cost-per-day {
   float: right;
   width: 315px;
+  padding-top: 28px;
 }
 .cost-per-day p {
   margin-top: 0;
