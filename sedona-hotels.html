@@ -35,39 +35,21 @@
           <form class="clearfix" action="#" method="post">
             <section class="infrastructure">
               <p>Инфраструктура:</p>
-              <label>
-                  <input type="checkbox" name="infrastructure" value="pool" id="pool" checked>
-                  <span class="checkbox-indicator-pool"></span>
-                  Бассейн
-              </label>
-              <label>
-                  <input type="checkbox" name="infrastructure" value="parking" id="parking">
-                  <span class="checkbox-indicator-parking"></span>
-                  Парковка
-              </label>
-              <label>
-                  <input type="checkbox" name="infrastructure" value="wifi" id="wifi">
-                  <span class="checkbox-indicator-wifi"></span>
-                  Wi-Fi
-              </label>
+              <input type="checkbox" name="infrastructure" value="pool" id="pool" checked>
+              <label for="pool" class="checkbox-indicator">Бассейн</label>
+              <input type="checkbox" name="infrastructure" value="parking" id="parking">
+              <label for="parking" class="checkbox-indicator">Парковка</label>
+              <input type="checkbox" name="infrastructure" value="wifi" id="wifi">
+              <label for="wifi" class="checkbox-indicator">Wi-Fi</label>
             </section>
             <section class="apartment-type">
               <p>Тип жилья:</p>
-              <label>
-                <input type="checkbox" name="apartment-type" value="hotel" id="hotel" checked>
-                <span class="checkbox-indicator-hotel"></span>
-                Гостиница
-              </label>
-              <label>
-                <input type="checkbox" name="apartment-type" value="motel" id="motel" checked>
-                <span class="checkbox-indicator-motel"></span>
-                Мотель
-              </label>
-              <label>
+              <input type="checkbox" name="apartment-type" value="hotel" id="hotel" checked>
+              <label for="hotel" class="checkbox-indicator">Гостиница</label>
+              <input type="checkbox" name="apartment-type" value="motel" id="motel" checked>
+              <label for="motel" class="checkbox-indicator">Мотель</label>
               <input type="checkbox" name="apartment-type" value="apartment" id="apartment" checked>
-              <span class="checkbox-indicator-apartment"></span>
-                Апартаменты
-              </label>
+              <label for="apartment" class="checkbox-indicator">Апартаменты</label>
             </section>
             <section class="cost-per-day">
               <p>Стоимость в сутки (р):</p>
